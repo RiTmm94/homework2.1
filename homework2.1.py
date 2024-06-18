@@ -1,6 +1,6 @@
-Количество_выполненных_ДЗ = 12
-Количество_затраченных_часов = 1.5
-Название_курса = 'Python'
-Время_на_одно_задание =  Количество_затраченных_часов / Количество_выполненных_ДЗ
-print (Время_на_одно_задание)
-print ('Курс: ' + Название_курса + ', всего задач: ' + str(Количество_выполненных_ДЗ) + ', затраченно часов: ' + str(Количество_затраченных_часов) + ' часа ' + ', среднее время выполнения: ' + str(Время_на_одно_задание) + ' часа.')
+Number_of_completed_Homework = 12
+Number_of_hours_spent = 1.5
+Course_name = 'Python'
+Time_one_Task = Number_of_hours_spent / Number_of_completed_Homework
+print (Time_one_Task)
+print ('Курс: ' + Course_name + ', всего задач: ' + str(Number_of_completed_Homework) + ', затраченно часов: ' + str(Number_of_hours_spent) + ' часа ' + ', среднее время выполнения: ' + str(Time_one_Task) + ' часа.')
